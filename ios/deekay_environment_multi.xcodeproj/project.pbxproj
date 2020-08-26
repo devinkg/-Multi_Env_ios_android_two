@@ -17,6 +17,8 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* deekay_environment_multiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* deekay_environment_multiTests.m */; };
 		42F983F7DC0597EF5FFF6D45 /* libPods-environment_multi-deekay_environment_multi_staysure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7DB0C55C9BD9900A542F84 /* libPods-environment_multi-deekay_environment_multi_staysure.a */; };
+		443FADCB24F68861002338E1 /* Launch Screen Avanti.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443FADCA24F68861002338E1 /* Launch Screen Avanti.storyboard */; };
+		443FADCD24F68F51002338E1 /* Launch Screen Staysure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443FADCC24F68F51002338E1 /* Launch Screen Staysure.storyboard */; };
 		44CE49D324F63D9400C7AEE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		44CE49D424F63D9400C7AEE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		44CE49D824F63D9400C7AEE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -65,6 +67,8 @@
 		2D02E47B1E0B4A5D006451C7 /* deekay_environment_multi-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deekay_environment_multi-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* deekay_environment_multi-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "deekay_environment_multi-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		380321A54A1CE1105E107E57 /* Pods-environment_multi-deekay_environment_multiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-environment_multi-deekay_environment_multiTests.debug.xcconfig"; path = "Target Support Files/Pods-environment_multi-deekay_environment_multiTests/Pods-environment_multi-deekay_environment_multiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		443FADCA24F68861002338E1 /* Launch Screen Avanti.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen Avanti.storyboard"; sourceTree = "<group>"; };
+		443FADCC24F68F51002338E1 /* Launch Screen Staysure.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen Staysure.storyboard"; sourceTree = "<group>"; };
 		44CE49DF24F63D9400C7AEE8 /* Staysure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Staysure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CE49E024F63D9400C7AEE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/devingodage/Documents/Testing Apps/Multi environment Testing /deekay_environment_multi/ios/Info.plist"; sourceTree = "<absolute>"; };
 		44FF8BE224F6502D008DE5D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -194,6 +198,7 @@
 			children = (
 				44CE49E024F63D9400C7AEE8 /* Info.plist */,
 				44FF8BE224F6502D008DE5D7 /* Images.xcassets */,
+				443FADCC24F68F51002338E1 /* Launch Screen Staysure.storyboard */,
 			);
 			path = deekay_environment_multi_staysure;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 			children = (
 				44FF8C0324F65B7C008DE5D7 /* Info.plist */,
 				44FF8C0424F65E4C008DE5D7 /* Images.xcassets */,
+				443FADCA24F68861002338E1 /* Launch Screen Avanti.storyboard */,
 			);
 			path = deekay_environment_multi_avanti;
 			sourceTree = "<group>";
@@ -472,6 +478,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44FF8BE324F6502D008DE5D7 /* Images.xcassets in Resources */,
+				443FADCD24F68F51002338E1 /* Launch Screen Staysure.storyboard in Resources */,
 				44CE49D824F63D9400C7AEE8 /* LaunchScreen.storyboard in Resources */,
 				44CE49D924F63D9400C7AEE8 /* Images.xcassets in Resources */,
 			);
@@ -481,6 +488,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443FADCB24F68861002338E1 /* Launch Screen Avanti.storyboard in Resources */,
 				44FF8C0524F65E4C008DE5D7 /* Images.xcassets in Resources */,
 				44FF8BFC24F65B7C008DE5D7 /* LaunchScreen.storyboard in Resources */,
 				44FF8BFD24F65B7C008DE5D7 /* Images.xcassets in Resources */,
